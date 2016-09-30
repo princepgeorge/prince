@@ -2,19 +2,42 @@
 <head>
 <title>
 Sample Html
-</title></head>
+</title>
+
+<style>
+table, th, td {
+   border: 1px solid black;
+}
+</style>
+</head>
 <body>
-<h1>Account Details</h1>
+<h1>Student Details</h1>
 <br/>
-<table style="background-color:yellow";>
+<table style="background-color:yellow";border="1">
 <th colspan="5">Student Details</th>
-<th>Shift</th><th>Student Name</th>
-<th>Shift</th><th>Course</th>
-<th colspan="2">Contact Details</th>
-<th colspan="2">Contact Details</th>
 <tr>
-<td>1001</td><td>Jack</td></tr>
-<tr><td>1002</td><td>Tom</td></tr>
+<td>Shift</td><td>Student Name</td>
+<td>Course</td>
+<td colspan="2">
+<table>
+<tr>
+<td colspan="2">Contact Details</td>
+</tr>
+<tr>
+<td>Mobile</td><td>Landline</td>
+</tr>
+</table>
+
+</td>
+
+</tr>
+<tr>
+<td rowspan="3"></td><td>Subin</td><td>GM</td><td>114423</td><td>9786876</td></tr>
+<tr><td>Abhishek</td><td>CM</td><td>2134234</td><td>98765</td></tr>
+<tr><td>Shameem</td><td>HM</td><td>34455</td><td>98765</td></tr>
+<tr><td rowspan="3"></td><td>Atheendrah</td><td>CM</td><td>2334</td><td>976544</td></tr>
+<tr><td>Vishnu</td><td>GM</td><td>122343</td><td>98765</td></tr>
+<tr><td>Jawad</td><td>HM</td><td>12334</td><td>98754</td></tr>
 </table>
 </body>
 </html>
